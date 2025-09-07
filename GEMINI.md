@@ -74,8 +74,8 @@ This project uses the following documents to guide its development.
 
 To ensure continuity, we will follow a strict session management protocol.
 
--   **Ending a Session:** The user will run `/update-memory` to save a summary of the day's work. For major milestones, `/update-project-docs` will be used to update all project documentation.
--   **Starting a Session:** The user will run `/resume-work` to bring Gemini up to speed on the project's current state and receive the next instruction.
+- **Ending a Session:** The user will run `/update-memory` to save a summary of the day's work. For major milestones, `/update-project-docs` will be used to update all project documentation.
+- **Starting a Session:** The user will run `/resume-work` to bring Gemini up to speed on the project's current state and receive the next instruction.
 
 ---
 
@@ -172,10 +172,12 @@ To ensure continuity, we will follow a strict session management protocol.
 
 ## Current Task for Apprentice
 
-The current objective is to complete **Task 1.2: Create a Python virtual environment**.
+The current objective is to **verify the sentiment analysis script**.
 
-**Instruction:** Open your terminal in the project directory (`/home/alexp/Documents/vault/dev/rbc-stock-news-sentiment-analyzer/`) and run the following command:
+**Instruction:** Run the `analyzer.py` script from your terminal.
+
 '''bash
-python3 -m venv venv
+python3 analyzer.py
 '''
-Let me know once you have completed this.
+
+You should see each headline followed by its sentiment scores (negative, neutral, positive, compound). Let me know the result.
