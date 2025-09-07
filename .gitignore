@@ -1,0 +1,14 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Gemini session files
+.gemini/
+
+# VS Code
+.vscode/
